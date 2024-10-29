@@ -1,0 +1,218 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+   
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+   
+   padding: 30px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #262626;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #8e8e8e;
+    margin: 0;
+}
+
+#linkForm {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#linkInput {
+    flex-grow: 1;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0081d6;
+}
+
+#linkList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#linkList li {
+    background-color: #000000;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+}
+
+.link {
+    text-decoration: none;
+    color: #00376b;
+    word-break: break-all;
+    font-weight: 500;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #8e8e8e;
+}
+
+footer a {
+    color: #00376b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+}
+
+.followbtn{
+    text-align: center;
+}
+.fa-instagram{
+    padding-right: 10px;
+    color: #833ab4;
+}
+
+.navbar {
+    background-color: #282c34; /* Dark background */
+}
+.navbar-brand {
+    color: #ffffff; 
+    padding-left: 10px;/* White text for the brand */
+}
+.nav-link {
+    
+    color: #ffffff; /* White text for nav links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+.nav-link:hover {
+    color: #61dafb; /* Change color on hover */
+}
+
+/* Centering the nav links */
+.navbar-nav {
+    margin: auto; /* Center the nav items */
+}
+
+/* Custom style for the hamburger button */
+.navbar-toggler {
+    
+    border: none; /* Remove border */
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-color: #ffffff; /* Change icon color */
+}
+
+/* Responsive styles */
+@media (max-width: 765px) {
+    
+    .nav-link {
+        padding: 10px 15px; /* Padding around nav links */
+        display: block; /* Stack links vertically */
+        text-align: center; /* Center text */
+    }
+    nav {
+       width: 100%;
+    }
+    
+    
+}
+nav {
+    border-radius: 10px;
+    margin-bottom: 8%;
+}
+
+.testing{
+    background-color: #405de6;
+}
+
+
+
+    .link-button {
+padding: 8px 16px;
+  margin: 4px 0;
+  background-color: #000;
+  color: #fff;
+  border: 4px solid transparent;
+  border-image: linear-gradient(45deg, #fd0202, #ff9a02, #2bfd01  ,  #0000ff, #8b00ff, #ff0000) 1;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  transition: background-color 0.2s;
+    }
+
+    .link-button:hover {
+        background-color: #e0e0e0;
+        color: #000;
+    }
+
+    #linkList {
+        list-style: none;
+        padding: 0;
+    }
+
+    #linkForm {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    input {
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    
+ @media (max-width :550px) {
+ #nameInput {
+    width: 35%;
+ }
+
+ }
